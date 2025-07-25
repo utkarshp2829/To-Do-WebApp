@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2e003e, #8e44ad);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 8vh;
+    height: 100vh;
+    color: #f5f5f5;
+    position: relative;
+  }
+  
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem 2rem; /* More padding */
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+  width: 90%;
+  max-width: 550px; 
+}
+
+  
+  h1 {
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #taskInput {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    background: rgba(255,255,255,0.1);
+    color: #f5f5f5;
+    outline: none;
+  }
+  
+  #addBtn {
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+    border: none;
+    border-radius: 12px;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  #addBtn:hover {
+    transform: scale(1.1);
+  }
+
+  ul#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255,255,255,0.08);
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    margin-bottom: 0.7rem;
+    transition: all 0.3s ease;
+  }
+  
+  .task.completed .text {
+    text-decoration: line-through;
+    color: #bdbdbd;
+  }
+  
+  .task .text {
+    flex: 1;
+    margin-left: 0.8rem;
+    font-size: 1rem;
+  }
+  
+  .task input[type="checkbox"] {
+    accent-color: #92fe9d;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .task button {
+    background: transparent;
+    border: none;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .task button:hover {
+    transform: scale(1.2);
+  }
+  
