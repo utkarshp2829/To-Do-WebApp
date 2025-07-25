@@ -26,7 +26,8 @@ A sleek, minimalist to-do list built using HTML, CSS, and JavaScript. Tasks are 
 
 ## 📷 Preview
 
-<img width="1710" height="946" alt="image" src="https://github.com/user-attachments/assets/b209e30e-edff-4c5c-a2df-83588f01cfb7" />
+<img width="1710" height="947" alt="image" src="https://github.com/user-attachments/assets/350e4092-8e5c-44e3-817b-7bd4e3e7e968" />
+
 
 
 ## 🛠️ Setup & Usage
